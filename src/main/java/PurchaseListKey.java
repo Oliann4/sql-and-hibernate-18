@@ -15,4 +15,6 @@ public class PurchaseListKey implements Serializable {
 
     @Column(name = "course_name")
     private String courseName;
+
+    public PurchaseListKey() {}
 }
