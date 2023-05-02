@@ -31,4 +31,6 @@ public class Subscription {
 
     @Column(name = "subscription_date", nullable = false)
     private Date subscriptionDate;
+
+    public Subscription() {}
 }
